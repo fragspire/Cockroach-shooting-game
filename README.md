@@ -57,4 +57,5 @@ Execute the following strings directly inside your project directory using a ter
 ### Compile Source Files:
 ```cmd
 g++ main.cpp player.cpp enemy.cpp -o cockroach_game.exe -I"C:\raylib\include" -L"C:\raylib\lib" -lraylib -lopengl32 -lgdi32 -lwinmm
+### Run Executable
 cockroach_game.exe

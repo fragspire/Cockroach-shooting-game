@@ -14,8 +14,8 @@ File Directory Structure-
     ├── logo.png        <- Standardized 32-bit color-converted enemy wave texture
     └── background.png  <- Crisp static arcade viewport frame texture
 
-    
-# Insect vs Logos (Arcade Shooter)
+
+# Arcade Shooter
 
 An arcade-style space shooter game built from scratch using **C++** and **Raylib 6.0**. Inspired by the vintage spirit of classic keypad phone games like Nokia's legendary *Space Impact*, this modular desktop application pits a player-controlled insect against waves of incoming corporate logos.
 

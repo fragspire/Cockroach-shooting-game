@@ -54,3 +54,7 @@ The current stable build is the result of systematic debugging, asset rendering 
 To compile and launch this modular build on your local environment, ensure you have **GCC / MinGW** installed and Raylib globally map-linked to your local storage.
 
 Execute the following strings directly inside your project directory using a terminal or Command Prompt (`cmd`):
+### Compile Source Files:
+```cmd
+g++ main.cpp player.cpp enemy.cpp -o cockroach_game.exe -I"C:\raylib\include" -L"C:\raylib\lib" -lraylib -lopengl32 -lgdi32 -lwinmm
+cockroach_game.exe
